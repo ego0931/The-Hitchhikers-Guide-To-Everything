@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: #00FF00;
+  font-family: 'Courier New', Courier, monospace;
+  /* Background noise image - this is a placeholder, you'll need to find or create a noise texture */
+  background-image: url('data:image/png;base64,iVBORw0KG...'); 
+  background-size: 100px 100px;
+  animation: guide-background 20s infinite;
+}
+
+@keyframes guide-background {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+/* Titles with a green glow */
+h1, h2 {
+  text-shadow: 0 0 5px #00FF00;
+}
+
+/* Styling for links */
+a {
+  color: #00FF00;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #FF0000; /* Change color on hover for interactivity */
+}
+
+/* Simple animation for content loading */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Use this class for your main content */
+.content {
+  animation: fadeIn 0.5s ease-in-out;
+}
