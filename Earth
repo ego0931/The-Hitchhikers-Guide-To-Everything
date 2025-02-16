@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earth - The Hitchhikers Guide To Everything</title>
+  <style>
+    body { background-color: black; color: #00FF00; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Earth</h1>
+  <p>Mostly harmless. An unremarkable planet in the unfashionable end of the western spiral arm of the Galaxy. Recently demolished to make way for a hyperspace bypass.</p>
+  <a href="index.html">Back to the Guide</a>
+</body>
+</html>
